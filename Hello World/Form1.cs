@@ -23,8 +23,14 @@ namespace Hello_World
         }
 
         private void Button1_Click(object sender, EventArgs e)
+
         {
-            MessageBox.Show("Hello " + txtBxName.Text);
+            MessageBox.Show("Welcome to Visual Studio");
+        }
+
+        private void TxtBxName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

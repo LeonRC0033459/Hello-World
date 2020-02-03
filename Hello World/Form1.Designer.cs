@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(489, 211);
+            this.button1.Location = new System.Drawing.Point(349, 183);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 71);
             this.button1.TabIndex = 0;
@@ -44,10 +44,11 @@
             // 
             // txtBxName
             // 
-            this.txtBxName.Location = new System.Drawing.Point(489, 103);
+            this.txtBxName.Location = new System.Drawing.Point(349, 85);
             this.txtBxName.Name = "txtBxName";
             this.txtBxName.Size = new System.Drawing.Size(100, 20);
             this.txtBxName.TabIndex = 1;
+            this.txtBxName.TextChanged += new System.EventHandler(this.TxtBxName_TextChanged);
             // 
             // Form1
             // 
